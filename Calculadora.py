@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 root.title("Calculadora")
 
-display = Entry(root)
+display = Entry(root, insertwidth = 2, width = 14, borderwidth = 4, font = ('Arial', 24))
 display.grid(row = 1, columnspan = 6, sticky= W+E)
 
 i = 0
